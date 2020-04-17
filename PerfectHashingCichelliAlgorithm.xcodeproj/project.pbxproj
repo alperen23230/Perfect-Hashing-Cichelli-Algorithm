@@ -13,6 +13,8 @@
 		849D47C4238A9A2800B09AAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849D47C2238A9A2800B09AAA /* Main.storyboard */; };
 		849D47C6238A9A2900B09AAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849D47C5238A9A2900B09AAA /* Assets.xcassets */; };
 		849D47C9238A9A2900B09AAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849D47C7238A9A2900B09AAA /* LaunchScreen.storyboard */; };
+		849D47D1238A9E1900B09AAA /* HashWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D47D0238A9E1900B09AAA /* HashWord.swift */; };
+		849D47D5238AD5BD00B09AAA /* UIView+AnimationLabelChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849D47D4238AD5BD00B09AAA /* UIView+AnimationLabelChange.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		849D47C5238A9A2900B09AAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		849D47C8238A9A2900B09AAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		849D47CA238A9A2900B09AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849D47D0238A9E1900B09AAA /* HashWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashWord.swift; sourceTree = "<group>"; };
+		849D47D4238AD5BD00B09AAA /* UIView+AnimationLabelChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AnimationLabelChange.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				849D47BC238A9A2800B09AAA /* AppDelegate.swift */,
 				849D47BE238A9A2800B09AAA /* SceneDelegate.swift */,
 				849D47C0238A9A2800B09AAA /* ViewController.swift */,
+				849D47D0238A9E1900B09AAA /* HashWord.swift */,
+				849D47D4238AD5BD00B09AAA /* UIView+AnimationLabelChange.swift */,
 				849D47C2238A9A2800B09AAA /* Main.storyboard */,
 				849D47C5238A9A2900B09AAA /* Assets.xcassets */,
 				849D47C7238A9A2900B09AAA /* LaunchScreen.storyboard */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849D47D5238AD5BD00B09AAA /* UIView+AnimationLabelChange.swift in Sources */,
 				849D47C1238A9A2800B09AAA /* ViewController.swift in Sources */,
+				849D47D1238A9E1900B09AAA /* HashWord.swift in Sources */,
 				849D47BD238A9A2800B09AAA /* AppDelegate.swift in Sources */,
 				849D47BF238A9A2800B09AAA /* SceneDelegate.swift in Sources */,
 			);
@@ -287,6 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MTMVBPSRA5;
 				INFOPLIST_FILE = PerfectHashingCichelliAlgorithm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +303,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.alperenunal.PerfectHashingCichelliAlgorithm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,6 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MTMVBPSRA5;
 				INFOPLIST_FILE = PerfectHashingCichelliAlgorithm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +322,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.alperenunal.PerfectHashingCichelliAlgorithm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
